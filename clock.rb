@@ -9,7 +9,7 @@ class Clock < Formula
   desc "A homebrew library that tells time right now."
   homepage "https://www.umi-mori.jp"
   url "#{REPO_URL}/archive/#{LIB_VER}.tar.gz"
-  sha256 "49b8f373a52fd3137b3405e44ab58fd152b0f5203232f3f504b193ed9450f1aa"
+  sha256 "5a8509b07f96fdba66056121ebfe153476e7a4e6cdd1e51dce98567c16bd329d"
   head "#{REPO_URL}.git", :tag => LIB_VER
   # depends_on "cmake" => :build
 
