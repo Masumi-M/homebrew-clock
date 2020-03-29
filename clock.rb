@@ -2,13 +2,14 @@
 #                https://rubydoc.brew.sh/Formula
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 
-LIB_VER="0.0.1".freeze
+REPO_URL="https://github.com/Masumi-M/clock/"
+LIB_VER="0.0.2"
 
 class Clock < Formula
   desc "A homebrew library that tells time right now."
   homepage "https://www.umi-mori.jp"
-  url "https://github.com/Masumi-M/clock/archive/0.0.1.tar.gz"
-  sha256 "5a8509b07f96fdba66056121ebfe153476e7a4e6cdd1e51dce98567c16bd329d"
+  url "#{REPO_URL}archive/#{LIB_VER}.tar.gz"
+  sha256 "134c661900ffea3429104fa99e2520733f9f12f4cbc0bb0149cf99b59c5aa37d"
   head "https://github.com/Masumi-M/clock.git", :tag => LIB_VER
   # depends_on "cmake" => :build
 
